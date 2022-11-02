@@ -2,7 +2,7 @@
 
 ```shell
 npm run build
-git pushs
+git push
 ```
 
 
