@@ -1,0 +1,1 @@
+import{g as n,i as s,t as a}from"./chunks/web.e8d0e840.js";const m=a('<span class="text-sm font-medium"></span>');function r(e){return(()=>{const t=n(m);return s(t,()=>e.name),t})()}export{r as Education};

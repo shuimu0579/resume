@@ -6,9 +6,9 @@
 		<link rel="shortcut icon" href="/favicon.png">
 		<meta name="generator" content="Astro v1.6.2">
 		<title>Suimu Resume</title>
-	<link rel="stylesheet" href="/resume/assets/home.13daa998.css" />
+	<link rel="stylesheet" href="/resume/assets/home.9b1baca3.css" />
 <link rel="stylesheet" href="/resume/assets/index.12c5fa68.css" />
-<link rel="stylesheet" href="/resume/assets/index.ab84e941.css" /></head>
+<link rel="stylesheet" href="/resume/assets/index.4541cae7.css" /></head>
 	<body>
 		<style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).load=a=>{(async()=>await(await a())())()},window.dispatchEvent(new Event("astro:load"));var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,n]=s;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const r of n){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(const r of s){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((s,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate);let s=this.getAttribute("before-hydration-url");s&&await import(s),this.start()}start(){const s=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(`astro:${e}`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:r}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(const d of i.split("."))this.Component=this.Component[d]}return this.hydrator=r,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}</script><div class="mt-6 max-w-screen-lg md:flex mx-auto">
     <div class="md:w-1/3 p-2 relative">
@@ -47,7 +47,13 @@
             <div class="mr-2">
               <span class="iconfont icon-position"></span>
             </div>
-            Shen Zhen
+            广东深圳
+          </div>
+          <div class="my-5 text-lg text-gray-600 flex">
+            <div class="mr-2">
+              <span class="iconfont icon-learn"></span>
+            </div>
+            统招本科
           </div>
           <a href="https://github.com/shuimu0579" class="my-5 flex" target="_blank">
             <div class="mr-2">
@@ -59,16 +65,8 @@
       </div>
     </div>
     <div class="md:w-2/3 p-2 w-full">
-      <div class="mx-4 mb-6">
-        <h1 class="mb-4 text-4xl text-gray-700 font-bold">个人评价</h1>
-        <p class="text-lg">
-          这里写个人评价 这里写个人评价 这里写个人评价 这里写个人评价
-          这里写个人评价 这里写个人评价 这里写个人评价 这里写个人评价
-          这里写个人评价 这里写个人评价 这里写个人评价 这里写个人评价
-        </p>
-      </div>
       <div class="mx-4">
-        <h1 class="mb-4 text-4xl text-gray-700 font-bold">工作经历</h1>
+        <h1 class="mb-4 text-2xl text-white-700 font-bold border-l-4 border-yellow-600 bg-yellow-600/10 p-1 pl-4">工作经历</h1>
         <ul>
           <li class="mb-4">
             <h2 class="text-3xl font-medium text-gray-800">ABC 公司</h2>
@@ -123,10 +121,48 @@
         </ul>
       </div>
       <div class="mx-4">
-        <h1 class="mb-4 text-4xl text-gray-700 font-bold">Skill</h1>
+        <h1 class="mb-4 text-2xl text-white-700 font-bold border-l-4 border-yellow-600 bg-yellow-600/10 p-1 pl-4">项目经验</h1>
+        <ul>
+          <li class="mb-4">
+            <h2 class="text-3xl font-medium text-gray-800">ABC 公司</h2>
+            <div>
+              <i class="bx bx-calendar text-sm" style="color: #666"></i>
+              <small class="text-sm text-gray-600">2021年8月 - 至今</small>
+            </div>
+            <div class="mt-1">
+              <div>
+                <h3 class="text-2xl font-medium text-gray-800">DEF项目</h3>
+                <p>基于 star 面试法来写 - 背景 - 任务 - 行动 - 结果</p>
+              </div>
+            </div>
+            <div class="mt-1">
+              <div>
+                <h3 class="text-2xl font-medium text-gray-800">GHI项目</h3>
+                <p>基于 star 面试法来写 - 背景 - 任务 - 行动 - 结果</p>
+              </div>
+            </div>
+            <div class="mt-1">
+              <div>
+                <h3 class="text-2xl font-medium text-gray-800">其他项目</h3>
+                <p>写2 - 3 个核心项目就足够了, 能体现出你的价值的</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="mx-4">
+        <h1 class="mb-4 text-2xl text-white-700 font-bold border-l-4 border-yellow-600 bg-yellow-600/10 p-1 pl-4">Skill</h1>
         <ul>
           <li class="mb-6 flex flex-wrap">
             <astro-island uid="1h09MG" data-solid-render-id="s0" component-url="/resume/Skill.012ee714.js" component-export="Skill" renderer-url="/resume/client.ab8ece6b.js" props="{&quot;name&quot;:[0,&quot;Vue3&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Skill&quot;,&quot;value&quot;:true}" await-children=""><span data-hk="s00-0" class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">Vue3</span></astro-island><astro-island uid="1bEvL8" data-solid-render-id="s1" component-url="/resume/Skill.012ee714.js" component-export="Skill" renderer-url="/resume/client.ab8ece6b.js" props="{&quot;name&quot;:[0,&quot;js&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Skill&quot;,&quot;value&quot;:true}" await-children=""><span data-hk="s10-0" class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">js</span></astro-island><astro-island uid="Z1KScsK" data-solid-render-id="s2" component-url="/resume/Skill.012ee714.js" component-export="Skill" renderer-url="/resume/client.ab8ece6b.js" props="{&quot;name&quot;:[0,&quot;threejs&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Skill&quot;,&quot;value&quot;:true}" await-children=""><span data-hk="s20-0" class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">threejs</span></astro-island><astro-island uid="1YKKHC" data-solid-render-id="s3" component-url="/resume/Skill.012ee714.js" component-export="Skill" renderer-url="/resume/client.ab8ece6b.js" props="{&quot;name&quot;:[0,&quot;solidjs&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Skill&quot;,&quot;value&quot;:true}" await-children=""><span data-hk="s30-0" class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">solidjs</span></astro-island>
+          </li>
+        </ul>
+      </div>
+      <div class="mx-4">
+        <h1 class="mb-4 text-2xl text-white-700 font-bold border-l-4 border-yellow-600 bg-yellow-600/10 p-1 pl-4">教育背景</h1>
+        <ul>
+          <li class="mb-6 flex justify-between">
+            <astro-island uid="Z17t0df" data-solid-render-id="s4" component-url="/resume/Education.c094b277.js" component-export="Education" renderer-url="/resume/client.ab8ece6b.js" props="{&quot;name&quot;:[0,&quot;2009.9-2013.6&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Education&quot;,&quot;value&quot;:true}" await-children=""><span data-hk="s40-0" class="text-sm font-medium">2009.9-2013.6</span></astro-island><astro-island uid="ZT03O4" data-solid-render-id="s5" component-url="/resume/Education.c094b277.js" component-export="Education" renderer-url="/resume/client.ab8ece6b.js" props="{&quot;name&quot;:[0,&quot;湖北文理学院&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Education&quot;,&quot;value&quot;:true}" await-children=""><span data-hk="s50-0" class="text-sm font-medium">湖北文理学院</span></astro-island><astro-island uid="Z1psgn8" data-solid-render-id="s6" component-url="/resume/Education.c094b277.js" component-export="Education" renderer-url="/resume/client.ab8ece6b.js" props="{&quot;name&quot;:[0,&quot;土木工程&quot;]}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Education&quot;,&quot;value&quot;:true}" await-children=""><span data-hk="s60-0" class="text-sm font-medium">土木工程</span></astro-island>
           </li>
         </ul>
       </div>

@@ -1,6 +1,9 @@
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
-  font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1666864359922') format('truetype');
+  font-family: 'iconfont';  /* Project id 3752265 */
+  src: url('//at.alicdn.com/t/c/font_3752265_2lxbj2y2krq.woff2?t=1667653621300') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3752265_2lxbj2y2krq.woff?t=1667653621300') format('woff'),
+       url('//at.alicdn.com/t/c/font_3752265_2lxbj2y2krq.ttf?t=1667653621300') format('truetype');
 }
 
 .iconfont {
@@ -11,23 +14,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-learn:before {
+  content: "\e63a";
+}
+
 .icon-wechat:before {
-  content: "\e629";
+  content: "\e600";
 }
 
 .icon-github:before {
-  content: "\e718";
+  content: "\e811";
 }
 
 .icon-Phoneshouji:before {
-  content: "\e8dc";
+  content: "\e62e";
 }
 
 .icon-position:before {
-  content: "\e7f1";
+  content: "\e652";
 }
 
 .icon-email:before {
-  content: "\e74f";
+  content: "\e631";
 }
 
