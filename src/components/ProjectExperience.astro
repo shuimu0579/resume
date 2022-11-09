@@ -1,34 +1,24 @@
 ---
 import Header from './Header.astro';
 import config from "../../meta.config";
-const { projectExperience } = config;
+const { projectExperience, education } = config;
 ---
 
 <div class="mx-4">
   <Header name={projectExperience}></Header>
   <ul>
     <li class="mb-4">
-      <h3 class="text-xl font-medium text-gray-800">ABC 公司</h3>
       <div>
-        <i class="bx bx-calendar text-sm" style="color: #666"></i>
-        <small class="text-sm text-gray-600">2021年8月 - 至今</small>
-      </div>
-      <div class="mt-1">
+        <h3 class="text-xl font-medium text-gray-800">云镝智慧助手小程序</h3>
         <div>
-          <h3 class="text-2xl font-medium text-gray-800">DEF项目</h3>
-          <p>基于 star 面试法来写 - 背景 - 任务 - 行动 - 结果</p>
-        </div>
-      </div>
-      <div class="mt-1">
-        <div>
-          <h3 class="text-2xl font-medium text-gray-800">GHI项目</h3>
-          <p>基于 star 面试法来写 - 背景 - 任务 - 行动 - 结果</p>
-        </div>
-      </div>
-      <div class="mt-1">
-        <div>
-          <h3 class="text-2xl font-medium text-gray-800">其他项目</h3>
-          <p>写2 - 3 个核心项目就足够了, 能体现出你的价值的</p>
+          <h4>项目描述：</h4>
+          <p class="text-sm">参与云镝智慧助手小程序的开发，供地方企业进行生产线上化--生产报工、生产监控、设备维保、产品服务。</p>
+          <h4>项目技术：</h4>
+          <p class="text-sm">1.使用微信小程序原生开发，使用vant-weapp作为UI组件库，基于这个基础组件库，封装小程序的业务组件。</p> 
+          <p class="text-sm">2.使用webview跳转网页，使用weixin-js-sdk完成网页和小程序之间的页面导航。</p> 
+          <h4>责任描述：</h4>
+          <p class="text-sm">1.完成小程序首次登录、小程序二次登录、扫小程序码登录以及小程序内扫码登录的逻辑处理。</p>
+          <p class="text-sm">2.完成业务组件的封装，利于页面组件的快速编写。</p>
         </div>
       </div>
     </li>
