@@ -22,5 +22,79 @@ const { projectExperience, education } = config;
         </div>
       </div>
     </li>
+    <li class="mb-4">
+      <div>
+        <h3 class="text-xl font-medium text-gray-800">工业互联网平台体验中心</h3>
+        <div>
+          <h4>项目描述：</h4>
+          <p class="text-sm">以3D可视化的方式展现工业互联网平台体验中心，赋予体验中心科技质感。</p>
+          <h4>项目技术：</h4>
+          <p class="text-sm">1.采用three.js可视化框架中的VideoTexture实现曲线流线型展现，相比于手动画3D曲线的方案，上述方案使得页面更加流畅，很少掉帧且帧率稳定。</p> 
+          <p class="text-sm">2.采用Raycaster模块获取在3D世界中被鼠标选中的物体，便于用mousemove和click事件处理业务逻辑。</p> 
+          <h4>责任描述：</h4>
+          <p class="text-sm">1.完成平台体验中心的可视化呈现，很好的适配各种类型的屏幕尺寸，有较好的视觉展示效果。</p>
+        </div>
+      </div>
+    </li>
+    <li class="mb-4">
+      <div>
+        <h3 class="text-xl font-medium text-gray-800">云镝智慧工业互联网平台</h3>
+        <div>
+          <h4>项目描述：</h4>
+          <p class="text-sm">参与云镝工业互联网平台的开发，包括云镝官网平台以及各个地方政府的公共平台开发。</p>
+          <h4>项目技术：</h4>
+          <p class="text-sm">1.使用git submodules完成公共组件和模块的抽离，快速响应30+地方平台的开发和维护；采用vue-cli作为项目的基础构建工具，完成项目的搭建。</p> 
+          <p class="text-sm">2.element-ui为项目UI框架并提供项目的基础组件，并通过封装基础组件形成业务公共组件，最终拼装成各个页面组件。</p>
+          <p class="text-sm">3.采用axios请求数据，针对axios做适合业务发展的二次封装；并二次封装request和response的拦截,在request里面设置自定义header，在response里面进行金蝶云苍穹登录判断，从而处理不同的业务逻辑。</p>
+          <p class="text-sm">4.使用vue-router做SPA应用的路由管理，并使用beforeEach钩子处理全局导航守卫。</p>
+          <p class="text-sm">5.使用vue-server-renderer做云镝官网的SSR服务端渲染，首页和部分产品页进行SSR并动态配置TDK。</p>
+          <h4>责任描述：</h4>
+          <p class="text-sm">1.工业互联网平台采用1+N的方式，云镝官网和地方平台，在git里面submodules子模块，做到公共组件和模块的引用。</p>
+          <p class="text-sm">2.采用公共模块+定制化模块开发，组件化开发在这个项目中就很有必要，封装并维护公共的业务组件，做到项目的快速开发和迭代。</p>
+          <p class="text-sm">3.云镝官网需要SEO获取自然流量，就对原来的官网进行了SSR改造,通过共用template模板、route路由，vuex数据，来做到node的同构直出。</p>
+        </div>
+      </div>
+    </li>
+    <li class="mb-4">
+      <div>
+        <h3 class="text-xl font-medium text-gray-800">统一认证中心平台</h3>
+        <div>
+          <h4>项目描述：</h4>
+          <p class="text-sm">参与云镝官网和各地方平台网站的注册登录模块的开发。</p>
+          <h4>项目技术：</h4>
+          <p class="text-sm">1.采用SSO单点登录的方式一处登录，就同步登录到官网和金蝶云苍穹，打通各个应用之间的登录权限。</p> 
+          <p class="text-sm">2.增加OAuth2.0鉴权模式，以微信方式登录云镝平台</p>
+          <h4>责任描述：</h4>
+          <p class="text-sm">1.打通各大平台网站和金蝶云苍穹的登录鉴权，一处登录处处运行，提升了用户体验。</p>
+        </div>
+      </div>
+    </li>
+    <li class="mb-4">
+      <div>
+        <h3 class="text-xl font-medium text-gray-800">众安银行App</h3>
+        <div>
+          <h4>项目描述：</h4>
+          <p class="text-sm">众安银行在香港成功申虚拟银行牌照，可以在香港开展银行业务，由此开发众安银行App</p>
+          <h4>项目技术：</h4>
+          <p class="text-sm">使用React Native开发业务模块,使用redux状态管理维护数据一致性。</p> 
+          <h4>责任描述：</h4>
+          <p class="text-sm">参与App中存款模块、利息优惠券模块、贷款模块的开发工作。使用H5页面完成协议页和宣传页的编写。</p>
+        </div>
+      </div>
+    </li>
+    <li class="mb-4">
+      <div>
+        <h3 class="text-xl font-medium text-gray-800">Cisco OneIdentity项目</h3>
+        <div>
+          <h4>项目描述：</h4>
+          <p class="text-sm">参与思科OneIdentity 项目，用一个身份可以登录思科系统里面的许多应用，方便用户账号管理，提升用户体验。</p>
+          <h4>项目技术：</h4>
+          <p class="text-sm">1.用bootstrap React UI组件配合React，运用redux、redux-thunk、react-redux进行状态管理</p> 
+          <p class="text-sm">2.用组件化函数式编程实践，运用HOC高阶组件，将数据与展示组件分离，以数据驱动的方式完成页面展示和逻辑交互。</p>
+          <h4>责任描述：</h4>
+          <p class="text-sm">完成OneIdentity 项目中enrollment UI、profile UI、recovery UI等子项目的开发。</p>
+        </div>
+      </div>
+    </li>
   </ul>
 </div>
